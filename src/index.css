@@ -1,2 +1,21 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* import Inter and Geist font-families */
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* font-family styles start */
+/* geist font-family */
+.font-geist {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* inter font-family */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* font-family styles end */
