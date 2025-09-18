@@ -3,7 +3,7 @@ import bgRightLeaf from "../assets/right-leaf.png";
 
 export default function Banner() {
   return (
-    <section>
+    <section className="bg-[#CFF0DC]">
       <div className="container mx-auto px-4 sm:px-0 pt-10 flex items-center justify-between">
         <BackgroundLeaf image={bgLeftLeaf}></BackgroundLeaf>
         <TextContent></TextContent>
